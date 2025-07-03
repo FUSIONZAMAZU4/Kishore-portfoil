@@ -1,61 +1,75 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>Kishore Kumar - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 20px;
-    }
-    .card {
-      background-color: white;
-      max-width: 600px;
-      margin: auto;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    h2 {
-      color: #34495e;
-    }
-    ul {
-      text-align: left;
-      list-style: none;
-      padding: 0;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kishore Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <div class="card">
-    <h1>Kishore Kumar</h1>
-    <p>📍 Chengalpattu, Tamil Nadu</p>
-    <p>📧 kishorekumar141104@gmail.com</p>
-    <p>🎓 3rd Year B.Tech IT Student</p>
-
-    <h2>About Me</h2>
-    <p>I’m currently learning HTML, CSS, JavaScript, Python, and GitHub. Looking for internships to grow as a web developer.</p>
-
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="name">Kishore Kumar. K</span></h1>
+      <h2><span class="typing"></span></h2>
+      <div class="links">
+        <a href="mailto:kishorekumar141104@gmail.com">📧 Email</a>
+        <a href="https://www.linkedin.com/in/k-kishore-kumar-420540278">🔗 LinkedIn</a>
+        <a href="https://github.com/fusionzamazu4">💻 GitHub</a>
+        <a href="https://fusionzamazu4.github.io/Kishore-portfoil">🌐 Portfolio</a>
+      </div>
+    </div>
+  </section>  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>To-Do List App</h3>
+        <p>DOM-based task manager using JavaScript</p>
+        <a href="https://fusionzamazu4.github.io/todo-list-app/">Live Demo</a>
+      </div>
+      <div class="project">
+        <h3>Form Validation App</h3>
+        <p>Client-side form validation using JS</p>
+        <a href="https://fusionzamazu4.github.io/form-validation-final/">Live Demo</a>
+      </div>
+      <div class="project">
+        <h3>Expense Tracker</h3>
+        <p>Income/expense app using localStorage</p>
+        <a href="https://fusionzamazu4.github.io/expense-tracker/">Live Demo</a>
+      </div>
+      <div class="project">
+        <h3>Quiz App</h3>
+        <p>Interactive MCQ quiz using JS</p>
+        <a href="https://fusionzamazu4.github.io/quiz-app/">Live Demo</a>
+      </div>
+    </div>
+  </section>  <section class="skills" id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>✔️ HTML, CSS</li>
-      <li>✔️ JavaScript (Learning)</li>
-      <li>✔️ Python (Basics)</li>
-      <li>✔️ SQL (Basics)</li>
-      <li>✔️ Git & GitHub (Beginner)</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python (CLI Projects)</li>
+      <li>React (Learning)</li>
+      <li>Git & GitHub</li>
+      <li>SQL (Basic)</li>
     </ul>
-
-    <h2>Projects</h2>
-    <ul>
-      <li>• Portfolio Website (This page)</li>
-      <li>• To-Do App (Coming soon)</li>
-    </ul>
-  </div>
-
-</body>
+  </section>  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a 3rd year B.Tech IT student from RRASE College of Engineering,
+      Anna University, passionate about web development. I build responsive
+      and real-time projects using HTML, CSS, JavaScript, and Python. I’m currently learning React.
+    </p>
+  </section>  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: kishorekumar141104@gmail.com</p>
+    <p>Phone: +91 78452 41104</p>
+    <p>Location: Chengalpattu, Tamil Nadu</p>
+  </section>  <script src="script.js"></script></body>
 </html>
